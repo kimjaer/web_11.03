@@ -20,6 +20,10 @@ a:hover {
     position: relative;
 }
 
+.d-column{
+    display: table-column;
+}
+
 .position-abs {
     position: absolute;
 }
@@ -56,7 +60,72 @@ a:hover {
     height: 200px;
 }
 
+/* layout */
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hd {
+    background-color: rgb(181, 230, 224);
+}
+
+#gnb h1 {
+    margin-left: 3rem;
+}
+
+
+
+#gnb>li>a {
+    font-size: 22px;
+    padding: 10px 30px;
+    /* a 태그 넓게 빼줌!*/
+    display: block;
+    /*이걸 해야 패딩 위아래가 먹힘*/
+}
+
+#gnb ul {
+    background-color: transparent;
+    border: 1px solid transparent;
+    left: 0;
+    right: 0;
+    top: 100%;
+    text-indent: 2rem;
+    /* text center 대신 쓴거임*/
+    line-height: 2;
+    /* 소메뉴 각각 나오게 하기 ↓ max-height가 꼭 있어야함*/
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#gnb>li:hover #d2ul {
+    max-height: 180px;
+    border-color: #222;
+    background-color: white;
+}
+
+#d2ul li:hover {
+    background-color: black;
+}
+
+
+
+#threeBanner>* {
+    width: 33.333%;
+
+}
+
+
+
+#fd {
+    background-color: rgb(243, 188, 243);
+}
+
+#threebanner .tabs{
+    border: 1px solid #ccc;
 }

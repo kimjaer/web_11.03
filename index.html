@@ -12,12 +12,12 @@
 
 <body>
     <div class="container">
-        <header id="hd" class="d-flex jcb aic ">
+        <header id="hd" class="d-flex jcb aic h100">
             <h1><a href=""><img src="./img/h-logo.png" alt="로고"></a></h1>
             <ul id="gnb" class="d-flex">
-                <li class="rel">
+                <li class="position-rel">
                     <a href="">대메뉴</a>
-                    <ul id="d2ul" class="abs">
+                    <ul id="d2ul" class="position-abs">
                         <li><a href="">소메뉴</a></li>
                         <li><a href="">소메뉴</a></li>
                         <li><a href="">소메뉴</a></li>
@@ -25,9 +25,9 @@
                         <li><a href="">소메뉴</a></li>
                     </ul>
                 </li>
-                <li class="rel">
+                <li class="position-rel">
                     <a href="">대메뉴</a>
-                    <ul id="d2ul" class="abs">
+                    <ul id="d2ul" class="position-abs">
                         <li><a href="">소메뉴</a></li>
                         <li><a href="">소메뉴</a></li>
                         <li><a href="">소메뉴</a></li>
@@ -35,9 +35,9 @@
                         <li><a href="">소메뉴</a></li>
                     </ul>
                 </li>
-                <li class="rel">
+                <li class="position-rel">
                     <a href="">대메뉴</a>
-                    <ul id="d2ul" class="abs">
+                    <ul id="d2ul" class="position-abs">
                         <li><a href="">소메뉴</a></li>
                         <li><a href="">소메뉴</a></li>
                         <li><a href="">소메뉴</a></li>
@@ -45,9 +45,9 @@
                         <li><a href="">소메뉴</a></li>
                     </ul>
                 </li>
-                <li class="rel">
+                <li class="position-rel">
                     <a href="">대메뉴</a>
-                    <ul id="d2ul" class="abs">
+                    <ul id="d2ul" class="position-abs">
                         <li><a href="">소메뉴</a></li>
                         <li><a href="">소메뉴</a></li>
                         <li><a href="">소메뉴</a></li>
@@ -57,9 +57,56 @@
                 </li>
             </ul>
         </header>
-        <div id="swiper"></div>
-        <div id="threebanner"></div>
-        <footer id="fd"></footer>
+        <div id="swiper" class="ofh h300">
+            <div class="swiper-wrapper d-flex">
+                <div class="swiper-slide">
+                    <img src="./img/banner.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/banner2.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/banner3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id="threebanner" class=" d-flex h200">
+            <div class="tabs d-flex">
+                <div>
+                    <ul class="position-abs d-column"><a href="">공지사항</a>
+                    <li><a href="">공지사항이에요~</a></li>
+                    <li><a href="">공지사항이에요~</a></li>
+                    <li><a href="">공지사항이에요~</a></li>
+                    <li><a href="">공지사항이에요~</a></li>
+                </ul>
+            </div>
+                <div>
+                    <ul class="position-abs d-flex"><a href="">갤러리</a>
+                        <li><a href="">이미지요</a></li>
+                        <li><a href="">이미지요</a></li>
+                        <li><a href="">이미지요</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+            </div>
+        </div>
+        <footer id="fd" class="d-flex jcb">
+            <h2><a href=""><img src="./img/f-logo.png" alt=""></a></h2>
+            <div>
+                <ul class="d-flex">
+                    <li><a href="">하단메뉴</a></li>
+                    <li><a href="">하단메뉴</a></li>
+                    <li><a href="">하단메뉴</a></li>
+                    <li><a href="">하단메뉴</a></li>
+                </ul>
+                <p>~카피문구를 써주세요~</p>
+            </div>
+        </footer>
     </div>
 
 </body>
